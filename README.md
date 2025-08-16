@@ -16,4 +16,16 @@
 ![](https://github-readme-stats.vercel.app/api?username=bocyej&theme=slateorange&hide_border=true&include_all_commits=true&count_private=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=bocyej&theme=slateorange&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
-![](https://komarev.com/ghpvc/?username=bocyej&style=for-the-badge&color=yellow&base=44)
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="images/breakout-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="images/breakout-light.svg"
+  />
+  <img alt="Breakout Game" src="images/breakout-light.svg" />
+</picture>
+
+![](https://komarev.com/ghpvc/?username=bocyej&style=for-the-badge&color=yellow)
