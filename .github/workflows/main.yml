@@ -23,11 +23,11 @@ jobs:
 
       - name: Customize breakout colors
         run: |
-          sed -i 's/fill="#FFFFFF"/fill="#FF0000"/g' images/breakout-light.svg
-          sed -i 's/fill="#FFFFFF"/fill="#FF0000"/g' images/breakout-dark.svg
+          sed -i 's/fill="#1F6FEB"/fill="#FAA627"/g' images/breakout-light.svg
+          sed -i 's/fill="#1F6FEB"/fill="#FAA627"/g' images/breakout-dark.svg
 
-          sed -i 's/fill="#000000"/fill="#0000FF"/g' images/breakout-light.svg
-          sed -i 's/fill="#000000"/fill="#0000FF"/g' images/breakout-dark.svg
+          sed -i 's/fill="#1F6FEB"/fill="#FAA627"/g' images/breakout-light.svg
+          sed -i 's/fill="#1F6FEB"/fill="#FAA627"/g' images/breakout-dark.svg
 
       - name: Move generated SVGs
         run: |
