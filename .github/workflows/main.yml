@@ -37,14 +37,14 @@ jobs:
 
       - name: Update branch
         run: |
-          git fetch origin ${{ github.ref }}
-          git checkout ${{ github.ref }}
-          git pull origin ${{ github.ref }}
+          git fetch origin main
+          git checkout main
+          git pull origin main
 
       - name: Commit and push SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add images/breakout-light.svg images/breakout-dark.svg
-          git commit -m "chore: update breakout SVGs" || echo "No changes to commit"
-          git push --force
+          git diff --staged --quiet || git commit -m "chore: update breakout SVGs"
+          git push
