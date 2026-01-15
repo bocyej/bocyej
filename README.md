@@ -2,7 +2,7 @@
 <h3 align="center">I'm a Full Stack Developer and have experience in building applications and websites using Flutter and web technologies. I enjoy coding, so if I think I can create an application, I'll try to do it in my free time. :) Check out my portfolio below!</h3>
 
 - 📫 How to reach me **jacoblaurel.work@gmail.com**
-- 💻 Portfolio: **https://bocyej.github.io/portfolio**
+- 💻 Portfolio: **https://bocyej-portfolio.vercel.app/**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
